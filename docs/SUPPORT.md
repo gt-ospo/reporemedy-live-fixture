@@ -1,2 +1,2 @@
 ## Support
-Recorded revision: contact the fixture maintainer.
+Main revision: open a discussion with the fixture maintainer.

@@ -1,0 +1,9 @@
+name: Deliberately incomplete audit fixture
+on: workflow_dispatch
+permissions: write-all
+jobs:
+  no-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - run: echo "Synthetic fixture only; no tests, SAST, packaging or signing."
